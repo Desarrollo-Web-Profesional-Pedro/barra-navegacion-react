@@ -145,6 +145,20 @@ const navbarLinks = [
 ];
 ```
 
+## Evidencias del Proyecto
+
+### Aplicación en Desarrollo
+![Aplicación funcionando en modo desarrollo](docs/imagenes/desarrollo.png)
+
+### Aplicación en Docker
+![Aplicación desplegada con Docker](docs/imagenes/Docker8081.png)
+
+### Terminal Docker
+![Terminal mostrando Docker corriendo](docs/imagenes/docker-terminal.png)
+
+### Repositorio GitHub
+![Repositorio en GitHub](docs/imagenes/github.png)
+
 ## Notas de Desarrollo
 
 - El código está completamente documentado con comentarios en español

@@ -147,11 +147,3 @@ const navbarLinks = [
 
 ### Aplicación en Docker puerto 8081
 <img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/da2a5490-5f04-4c9e-a19b-20ba90be466d" />
-
-## Notas de Desarrollo
-
-- El código está completamente documentado con comentarios en español
-- Todos los componentes son funcionales y utilizan hooks de React
-- Las animaciones son performantes y no afectan el rendimiento
-- El diseño es completamente responsive (móvil, tablet, desktop)
-- Se utiliza Tailwind CSS con configuración personalizada

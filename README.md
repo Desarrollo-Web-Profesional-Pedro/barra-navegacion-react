@@ -147,18 +147,8 @@ const navbarLinks = [
 
 ## Evidencias del Proyecto
 
-### Aplicación en Desarrollo
-![Aplicación funcionando en modo desarrollo](docs/imagenes/desarrollo.png)
-
-### Aplicación en Docker
+### Aplicación en Docker puerto 8081
 <img width="1919" height="1142" alt="image" src="https://github.com/user-attachments/assets/da2a5490-5f04-4c9e-a19b-20ba90be466d" />
-
-
-### Terminal Docker
-![Terminal mostrando Docker corriendo](docs/imagenes/docker-terminal.png)
-
-### Repositorio GitHub
-![Repositorio en GitHub](docs/imagenes/github.png)
 
 ## Notas de Desarrollo
 

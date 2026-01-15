@@ -125,23 +125,7 @@ Banner principal del sitio con:
 - Tarjetas de características con animaciones hover
 - Diseño responsive de 2 columnas
 
-## Personalización
 
-### Colores
-Los colores principales se pueden modificar en `src/index.css`:
-```css
---color-primary: #ff8901;
---color-secondary: #fb923c;
-```
-
-### Enlaces del Menú
-Los enlaces se pueden modificar en `src/data/data.js`:
-```javascript
-const navbarLinks = [
-  { id: 1, name: "Home", title: "Inicio", url: "/home" },
-  // Agregar más enlaces aquí
-];
-```
 
 ## Evidencias del Proyecto
 

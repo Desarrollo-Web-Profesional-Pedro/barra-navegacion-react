@@ -94,12 +94,12 @@ docker build -t barnav-app .
 ### Ejecutar el contenedor
 
 ```bash
-docker run -p 8080:80 barnav-app
+docker run -p 8081:80 barnav-app
 ```
 
 ### Acceder a la aplicación
 
-Abrir el navegador en: `http://localhost:8080`
+Abrir el navegador en: `http://localhost:8081`
 
 ## Componentes Principales
 

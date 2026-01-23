@@ -86,14 +86,20 @@ const Banner = () => {
           {
             title: "Cursos de Calidad",
             description: "Contenido actualizado y relevante",
+            color: "text-blue-600",
+            borderColor: "hover:border-blue-600",
           },
           {
             title: "Aprende a tu Ritmo",
             description: "Acceso 24/7 desde cualquier dispositivo",
+            color: "text-green-600",
+            borderColor: "hover:border-green-600",
           },
           {
             title: "Certificados",
             description: "Obtén certificados al completar cursos",
+            color: "text-purple-600",
+            borderColor: "hover:border-purple-600",
           },
         ].map((item, index) => (
           <motion.div
@@ -102,9 +108,9 @@ const Banner = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 + index * 0.2 }}
             whileHover={{ scale: 1.05, y: -5 }}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-primary"
+            className={`bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent ${item.borderColor}`}
           >
-            <h3 className="text-xl font-bold mb-2 text-primary">
+            <h3 className={`text-xl font-bold mb-2 ${item.color}`}>
               {item.title}
             </h3>
             <p className="text-gray-600">{item.description}</p>

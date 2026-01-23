@@ -5,6 +5,7 @@
  * @param {Array} navbarLinks - Array con los enlaces del menú
  */
 import { AnimatePresence, motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 const MenuResponsivo = ({ open, navbarLinks }) => {
   // Configuración de animaciones para el menú móvil
@@ -26,9 +27,9 @@ const MenuResponsivo = ({ open, navbarLinks }) => {
             <ul className="flex flex-col justify-center items-center gap-10">
               {navbarLinks.map((item) => (
                 <li key={item.id}>
-                  <a href={item.url} className="hover:text-secondary transition-colors duration-300">
+                  <Link to={item.url} className="hover:text-secondary transition-colors duration-300">
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

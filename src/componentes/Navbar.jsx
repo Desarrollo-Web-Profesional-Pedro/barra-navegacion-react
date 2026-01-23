@@ -3,6 +3,7 @@
  * Incluye logo, menú de navegación, iconos de búsqueda/carrito y menú móvil
  */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { navbarLinks } from "../data/data";
 import { CiSearch } from "react-icons/ci";
 import { ImBooks } from "react-icons/im";
@@ -30,12 +31,12 @@ const Navbar = () => {
             <ul className="flex items-center gap-7 text-gray-600">
               {navbarLinks.map((item) => (
                 <li key={item.id}>
-                  <a
-                    href={item.url}
+                  <Link
+                    to={item.url}
                     className="inline-block py-1 px-3 hover:text-primary"
                   >
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -49,9 +50,9 @@ const Navbar = () => {
             <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-300">
               <PiShoppingCartLight />
             </button>
-            <button className="hover:bg-primary font-semibold rounded-md text-white bg-secondary px-4 py-2 duration-300 border-primary hidden md:block">
+            <Link to="/login" className="hover:bg-primary font-semibold rounded-md text-white bg-secondary px-4 py-2 duration-300 border-primary hidden md:block">
               Ingresar
-            </button>
+            </Link>
           </div>
 
           {/* Sección de Móvil - Botón de menú hamburguesa */}

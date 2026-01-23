@@ -7,7 +7,7 @@ const navbarLinks = [
     id: 1,
     name: "Home",
     title: "Inicio",
-    url: "/home"
+    url: "/"
   },
   {
     id: 2,
@@ -19,7 +19,19 @@ const navbarLinks = [
     id: 3,
     name: "courses",
     title: "Cursos",
-    url: "/courses"
+    url: "/cursos"
+  },
+  {
+    id: 4,
+    name: "Services",
+    title: "Servicios",
+    url: "/servicios"
+  },
+  {
+    id: 5,
+    name: "Contact",
+    title: "Contacto",
+    url: "/contacto"
   }
 ];
 
